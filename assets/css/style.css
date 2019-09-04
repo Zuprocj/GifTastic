@@ -1,0 +1,35 @@
+body {
+    background: url("../images/food.png");
+  }
+  button {
+    padding: 0 2%;
+    margin: 0 2%;
+  }
+  h4 {
+    font-size: 165%;
+    font-weight: bold;
+    color: white;
+  }
+  .container {
+    background-color: rgba(0, 0, 0, 0.2);
+    max-width: 1000px;
+    width: 100%;
+  }
+  .btn {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 120%;
+    font-weight: bold;
+  } 
+  .guide {
+    padding: 3% 0 0 0;
+  }
+  .tag-row {
+    padding: 3% 0 0 0;
+  }
+  .category-row {
+    padding: 3% 0 ;
+  }
+  #photo {
+    padding-bottom: 3%;
+  }
