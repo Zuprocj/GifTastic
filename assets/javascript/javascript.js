@@ -1,16 +1,16 @@
-var tags = ["Hamburger", "Bacon", "Fried Chicken", "Cake", "Soda", "Cookies", "Pancakes"];
+var topics = ["Hamburger", "Bacon", "Fried Chicken", "Cake", "Soda", "Cookies", "Pancakes"];
   function buttons() {
-    $("#tags").empty();
-    for (var i = 0; i < tags.length; i++) {
-      $("#tags").append('<button class="tag-buttons btn btn-primary">' + tags[i] + '</button>');
+    $("#topics").empty();
+    for (var i = 0; i < topics.length; i++) {
+      $("#topics").append('<button class="tag-buttons btn btn-primary">' + topics[i] + '</button>');
     }      
   } 
 
-$(document).on('click', '#addTag', function(event) {
+$(document).on('click', '#addTopic', function(event) {
     event.preventDefault();
-    var newTag = $("#category").val().trim();
-    tags.push(newTag);
-    $("#tags").append('<button class="tag-buttons btn btn-primary">' + newTag + '</button>');
+    var newTopic = $("#category").val().trim();
+    topics.push(newTopic);
+    $("#topics").append('<button class="tag-buttons btn btn-primary">' + newTopic + '</button>');
   });
 
 $(document).on('click', '.tag-buttons', function(event) {
