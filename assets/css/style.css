@@ -1,5 +1,6 @@
 body {
     background: url("../images/food.png");
+    padding: 20px;
   }
   button {
     padding: 0 2%;
@@ -10,10 +11,16 @@ body {
     font-weight: bold;
     color: white;
   }
+  h1 {
+    font-size: 200%;
+    font-weight: bolder;
+    color: aliceblue;
+  }
   .container {
     background-color: rgba(0, 0, 0, 0.2);
     max-width: 1000px;
     width: 100%;
+    padding: 10px;
   }
   .btn {
     margin-top: 3%;
